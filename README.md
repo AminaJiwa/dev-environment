@@ -1,1 +1,2 @@
-# dev-environment
+This is a remote developer environment built with Terraform and AWS, which can be logged into from VScode. It uses a VPC, Internet Gateway Security Groups, and subnets to do this. The Terraform functions and tools used are Terraform state, format, replace, console, variables, conditionals, file, and template file. AWS user data and a local exec provisioner are used to bootstrap the EC2 instance and add its connection information to the VScode SSH configuration file, for modification. 
+
